@@ -4,6 +4,7 @@ Helpers are methods you can invoke that write HTML code for us. This also
 generates special code that ensures that Rails is secure. -->
 
 <h1>Add a picture</h1>
+<%= link_to "Back to Pictures", pictures_url %>
 <%= form_for @picture do |f| %>
 	<p>
 		<%= f.label :artist %><br>
